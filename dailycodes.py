@@ -294,3 +294,12 @@ def myfunc25():
     if __name__ == "__main__":
         print(fibonacci(int(input("Enter the term :"))))  # lets assume the input as 12
 myfunc25()
+def myfunc26():
+    # highest value program.
+    a = int(input("enter the first number -"))
+    b = int(input("enter the second number -"))
+    if a > b:
+        print(a)
+    else:
+        print(b)
+myfunc26()
