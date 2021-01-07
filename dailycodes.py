@@ -303,3 +303,17 @@ def myfunc26():
     else:
         print(b)
 myfunc26()
+def myfunc27():
+    list = []
+    list1 = []
+    z = int(input("enter the number of terms in list : "))
+    for y in range(z):
+        x = int(input("enter the number :"))
+        list.append(x)
+    print(list)
+    list1.append(x)
+    list[0] = list[-1]
+    list.pop(-1)
+    list.append(1)
+    print(list)
+myfunc27()
