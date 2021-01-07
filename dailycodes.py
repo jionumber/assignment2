@@ -317,3 +317,9 @@ def myfunc27():
     list.append(1)
     print(list)
 myfunc27()
+def myfunc28():
+    #Python | Ways to find length of list
+    list = [23, 24, 43, 43, 54, 54, 54, 54, 2, 423, 32]
+    x = len(list)
+    print(x)
+myfunc28()
