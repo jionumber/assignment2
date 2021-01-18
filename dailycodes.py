@@ -323,3 +323,12 @@ def myfunc28():
     x = len(list)
     print(x)
 myfunc28()
+def myfunc29():
+    def newfunc():
+        x = int(input("enter the first number :"))
+        y = int(input("enter the first number :"))
+        print(x * y)
+        newfunc()
+
+    newfunc()
+myfunc29()
